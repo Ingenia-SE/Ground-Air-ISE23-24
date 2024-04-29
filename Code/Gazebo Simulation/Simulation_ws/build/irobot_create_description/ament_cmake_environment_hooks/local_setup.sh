@@ -2,7 +2,7 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
-: ${AMENT_CURRENT_PREFIX:="/home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_description"}
+: ${AMENT_CURRENT_PREFIX:="/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_description"}
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \

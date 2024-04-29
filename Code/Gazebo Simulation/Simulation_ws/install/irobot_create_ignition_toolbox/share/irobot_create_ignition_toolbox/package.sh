@@ -52,7 +52,7 @@ _colcon_prepend_unique_value() {
 # since a plain shell script can't determine its own path when being sourced
 # either use the provided COLCON_CURRENT_PREFIX
 # or fall back to the build time prefix (if it exists)
-_colcon_package_sh_COLCON_CURRENT_PREFIX="/home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_ignition_toolbox"
+_colcon_package_sh_COLCON_CURRENT_PREFIX="/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_ignition_toolbox"
 if [ -z "$COLCON_CURRENT_PREFIX" ]; then
   if [ ! -d "$_colcon_package_sh_COLCON_CURRENT_PREFIX" ]; then
     echo "The build time path \"$_colcon_package_sh_COLCON_CURRENT_PREFIX\" doesn't exist. Either source a script for a different shell or set the environment variable \"COLCON_CURRENT_PREFIX\" explicitly." 1>&2
@@ -78,6 +78,8 @@ _colcon_package_sh_source_script() {
 }
 
 # source sh hooks
+_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/irobot_create_ignition_toolbox/hook/cmake_prefix_path.sh"
+_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/irobot_create_ignition_toolbox/hook/ld_library_path_lib.sh"
 _colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/irobot_create_ignition_toolbox/local_setup.sh"
 
 unset _colcon_package_sh_source_script

@@ -1,9 +1,0 @@
-[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
-compilation terminated.
-gmake[2]: *** [CMakeFiles/motion_control_lib.dir/build.make:76: CMakeFiles/motion_control_lib.dir/src/motion_control_node.cpp.o] Error 1
-gmake[2]: *** Waiting for unfinished jobs....
-[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
-compilation terminated.
-gmake[2]: *** [CMakeFiles/ui_mgr_lib.dir/build.make:76: CMakeFiles/ui_mgr_lib.dir/src/ui_mgr.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:427: CMakeFiles/ui_mgr_lib.dir/all] Error 2
-gmake[1]: *** Waiting for unfinished jobs....

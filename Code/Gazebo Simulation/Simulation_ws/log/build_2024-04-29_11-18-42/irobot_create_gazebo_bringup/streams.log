@@ -1,0 +1,136 @@
+[0.020s] Invoking command in '/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_gazebo_bringup': AMENT_PREFIX_PATH=/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_common_bringup:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_nodes:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_plugins:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_description:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_common_bringup:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_nodes:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_plugins:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_description:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_nodes/lib:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_plugins/lib:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_bringup
+[0.075s] -- The C compiler identification is GNU 11.4.0
+[0.166s] -- The CXX compiler identification is GNU 11.4.0
+[0.178s] -- Detecting C compiler ABI info
+[0.294s] -- Detecting C compiler ABI info - done
+[0.307s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.307s] -- Detecting C compile features
+[0.308s] -- Detecting C compile features - done
+[0.313s] -- Detecting CXX compiler ABI info
+[0.444s] -- Detecting CXX compiler ABI info - done
+[0.457s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.457s] -- Detecting CXX compile features
+[0.458s] -- Detecting CXX compile features - done
+[0.463s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.710s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.815s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.930s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.938s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.952s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.969s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.986s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.048s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.051s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.172s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.222s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.304s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.325s] -- Looking for pthread.h
+[1.393s] -- Looking for pthread.h - found
+[1.393s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.517s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.519s] -- Found Threads: TRUE  
+[1.740s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.741s] -- Checking for module 'bullet>=2.82'
+[1.756s] --   Found bullet, version 3.05
+[1.937s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[2.025s] -- Found assimp: /usr/include (found version "5.2.0") 
+[2.052s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.076s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[2.092s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.097s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.103s] -- Searching for dependencies of ignition-math6
+[2.104s] -- Looking for OGRE...
+[2.105s] -- OGRE_PREFIX_WATCH changed.
+[2.109s] -- Checking for module 'OGRE'
+[2.121s] --   Found OGRE, version 1.9.0
+[2.157s] -- Found Ogre Ghadamon (1.9.0)
+[2.162s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.170s] -- Looking for OGRE_Paging...
+[2.174s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.174s] -- Looking for OGRE_Terrain...
+[2.178s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.179s] -- Looking for OGRE_Property...
+[2.183s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.183s] -- Looking for OGRE_RTShaderSystem...
+[2.187s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.187s] -- Looking for OGRE_Volume...
+[2.191s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.191s] -- Looking for OGRE_Overlay...
+[2.195s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.279s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.281s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.281s] -- Searching for dependencies of ignition-transport8
+[2.296s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.304s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.308s] -- Checking for module 'libzmq >= 4'
+[2.324s] --   Found libzmq , version 4.3.4
+[2.362s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.367s] -- Checking for module 'uuid'
+[2.379s] --   Found uuid, version 2.37.2
+[2.410s] -- Found UUID: TRUE  
+[2.412s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.413s] -- Searching for dependencies of ignition-msgs5
+[2.428s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.433s] -- Checking for module 'tinyxml2'
+[2.446s] --   Found tinyxml2, version 9.0.0
+[2.481s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.483s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.484s] -- Searching for dependencies of ignition-common3
+[2.484s] -- Looking for dlfcn.h - found
+[2.485s] -- Looking for libdl - found
+[2.486s] -- Found DL: TRUE  
+[2.496s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[2.496s] -- Searching for <ignition-common3> component [graphics]
+[2.498s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.499s] -- Searching for dependencies of ignition-common3-graphics
+[2.499s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.502s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.502s] -- Searching for dependencies of ignition-fuel_tools4
+[2.575s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.583s] -- Checking for module 'jsoncpp'
+[2.596s] --   Found jsoncpp, version 1.9.5
+[2.631s] -- Found JSONCPP: TRUE  
+[2.635s] -- Checking for module 'libzip'
+[2.648s] --   Found libzip, version 1.7.3
+[2.684s] -- Found ZIP: TRUE  
+[2.684s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.684s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.685s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.688s] -- Gazebo version: 11.10
+[2.688s] -- Checking for module 'tbb'
+[2.701s] --   Found tbb, version 2021.5.0
+[2.744s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.805s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.805s] -- Added test 'lint_cmake' to check CMake code style
+[2.806s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.806s] -- Added test 'xmllint' to check XML markup files
+[2.808s] -- Configuring done
+[2.812s] -- Generating done
+[2.813s] -- Build files have been written to: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_gazebo_bringup
+[2.823s] Invoked command in '/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_gazebo_bringup' returned '0': AMENT_PREFIX_PATH=/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_common_bringup:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_nodes:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_plugins:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_description:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_common_bringup:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_nodes:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_plugins:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_description:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_nodes/lib:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_plugins/lib:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/src/create3_sim/irobot_create_gazebo/irobot_create_gazebo_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_bringup
+[2.825s] Invoking command in '/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_gazebo_bringup': AMENT_PREFIX_PATH=/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_common_bringup:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_nodes:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_plugins:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_description:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_common_bringup:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_nodes:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_plugins:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_description:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_nodes/lib:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_plugins/lib:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_gazebo_bringup -- -j16 -l16
+[2.863s] Invoked command in '/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_gazebo_bringup' returned '0': AMENT_PREFIX_PATH=/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_common_bringup:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_nodes:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_plugins:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_description:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_common_bringup:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_nodes:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_plugins:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_description:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_nodes/lib:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_plugins/lib:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_gazebo_bringup -- -j16 -l16
+[2.886s] Invoking command in '/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_gazebo_bringup': AMENT_PREFIX_PATH=/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_common_bringup:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_nodes:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_plugins:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_description:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_common_bringup:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_nodes:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_plugins:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_description:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_nodes/lib:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_plugins/lib:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_gazebo_bringup
+[2.892s] -- Install configuration: ""
+[2.892s] -- Execute custom install script
+[2.892s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/config/gazebo_params.yaml
+[2.900s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/create3_gazebo.launch.py
+[2.905s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/create3_gazebo_aws_small.launch.py
+[2.912s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/create3_spawn.launch.py
+[2.919s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/gazebo.launch.py
+[2.925s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_bringup/share/ament_index/resource_index/package_run_dependencies/irobot_create_gazebo_bringup
+[2.933s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_bringup/share/ament_index/resource_index/parent_prefix_path/irobot_create_gazebo_bringup
+[2.940s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/environment/ament_prefix_path.sh
+[2.947s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/environment/ament_prefix_path.dsv
+[2.953s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/environment/path.sh
+[2.961s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/environment/path.dsv
+[2.967s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/local_setup.bash
+[2.974s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/local_setup.sh
+[2.980s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/local_setup.zsh
+[2.988s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/local_setup.dsv
+[2.994s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/package.dsv
+[3.001s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_bringup/share/ament_index/resource_index/packages/irobot_create_gazebo_bringup
+[3.008s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/cmake/irobot_create_gazebo_bringupConfig.cmake
+[3.015s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/cmake/irobot_create_gazebo_bringupConfig-version.cmake
+[3.021s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/package.xml
+[3.030s] Invoked command in '/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_gazebo_bringup' returned '0': AMENT_PREFIX_PATH=/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_common_bringup:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_nodes:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_plugins:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_description:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_common_bringup:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_nodes:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_plugins:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_description:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_nodes/lib:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_gazebo_plugins/lib:/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_gazebo_bringup

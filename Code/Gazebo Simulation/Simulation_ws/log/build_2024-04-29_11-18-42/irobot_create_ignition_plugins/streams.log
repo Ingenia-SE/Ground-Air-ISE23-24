@@ -1,0 +1,61 @@
+[0.010s] Invoking command in '/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_ignition_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/src/create3_sim/irobot_create_ignition/irobot_create_ignition_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_ignition_plugins
+[0.058s] -- The C compiler identification is GNU 11.4.0
+[0.143s] -- The CXX compiler identification is GNU 11.4.0
+[0.155s] -- Detecting C compiler ABI info
+[0.259s] -- Detecting C compiler ABI info - done
+[0.272s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.272s] -- Detecting C compile features
+[0.273s] -- Detecting C compile features - done
+[0.278s] -- Detecting CXX compiler ABI info
+[0.402s] -- Detecting CXX compiler ABI info - done
+[0.415s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.415s] -- Detecting CXX compile features
+[0.416s] -- Detecting CXX compile features - done
+[0.420s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.666s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.758s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.186s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.333s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.183s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.256s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.323s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.323s] -- Configured cppcheck include dirs: 
+[2.323s] -- Configured cppcheck exclude dirs and/or files: 
+[2.324s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.324s] -- Configured cpplint exclude dirs and/or files: 
+[2.324s] -- Added test 'lint_cmake' to check CMake code style
+[2.325s] -- Added test 'xmllint' to check XML markup files
+[2.326s] -- Configuring done
+[2.343s] -- Generating done
+[2.345s] -- Build files have been written to: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_ignition_plugins
+[2.357s] Invoked command in '/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_ignition_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/src/create3_sim/irobot_create_ignition/irobot_create_ignition_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_ignition_plugins
+[2.359s] Invoking command in '/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_ignition_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_ignition_plugins -- -j16 -l16
+[2.405s] [ 16%] [34m[1mAutomatic MOC for target Create3Hmi[0m
+[3.273s] [ 16%] Built target Create3Hmi_autogen
+[3.282s] [ 33%] [34m[1mGenerating qrc_Create3Hmi.cpp[0m
+[3.309s] [ 66%] [32mBuilding CXX object Create3Hmi/CMakeFiles/Create3Hmi.dir/qrc_Create3Hmi.cpp.o[0m
+[3.309s] [ 66%] [32mBuilding CXX object Create3Hmi/CMakeFiles/Create3Hmi.dir/Create3Hmi_autogen/mocs_compilation.cpp.o[0m
+[3.309s] [ 83%] [32mBuilding CXX object Create3Hmi/CMakeFiles/Create3Hmi.dir/Create3Hmi.cc.o[0m
+[20.019s] [100%] [32m[1mLinking CXX shared library libCreate3Hmi.so[0m
+[21.705s] [100%] Built target Create3Hmi
+[21.750s] Invoked command in '/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_ignition_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_ignition_plugins -- -j16 -l16
+[22.014s] Invoking command in '/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_ignition_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_ignition_plugins
+[22.045s] -- Install configuration: ""
+[22.047s] -- Execute custom install script
+[22.048s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/lib/libCreate3Hmi.so
+[22.087s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_ignition_plugins/share/ament_index/resource_index/package_run_dependencies/irobot_create_ignition_plugins
+[22.113s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_ignition_plugins/share/ament_index/resource_index/parent_prefix_path/irobot_create_ignition_plugins
+[22.128s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/environment/ament_prefix_path.sh
+[22.143s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/environment/ament_prefix_path.dsv
+[22.158s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/environment/path.sh
+[22.172s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/environment/path.dsv
+[22.189s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/local_setup.bash
+[22.204s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/local_setup.sh
+[22.220s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/local_setup.zsh
+[22.235s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/local_setup.dsv
+[22.268s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/package.dsv
+[22.312s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_ignition_plugins/share/ament_index/resource_index/packages/irobot_create_ignition_plugins
+[22.344s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/cmake/irobot_create_ignition_pluginsConfig.cmake
+[22.379s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/cmake/irobot_create_ignition_pluginsConfig-version.cmake
+[22.403s] -- Symlinking: /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_ignition_plugins/share/irobot_create_ignition_plugins/package.xml
+[22.444s] Invoked command in '/home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_ignition_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/manuel/create3Git_ws/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_ignition_plugins
