@@ -1,0 +1,29 @@
+[0.014s] Invoking command in '/home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_nodes': AMENT_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_nodes -- -j8 -l8
+[0.098s] [35m[1mConsolidate compiler generated dependencies of target ir_intensity_vector_publisher[0m
+[0.098s] [35m[1mConsolidate compiler generated dependencies of target hazard_publisher_lib[0m
+[0.098s] [35m[1mConsolidate compiler generated dependencies of target hazards_vector_publisher[0m
+[0.098s] [35m[1mConsolidate compiler generated dependencies of target ir_intensity_publisher_lib[0m
+[0.098s] [35m[1mConsolidate compiler generated dependencies of target wheel_status_publisher[0m
+[0.108s] [35m[1mConsolidate compiler generated dependencies of target motion_control[0m
+[0.109s] [35m[1mConsolidate compiler generated dependencies of target wheel_status_publisher_lib[0m
+[0.129s] [  2%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control_node.cpp.o[0m
+[0.146s] [  8%] Built target ir_intensity_vector_publisher
+[0.147s] [ 18%] Built target hazard_publisher_lib
+[0.148s] [ 18%] Built target hazards_vector_publisher
+[0.149s] [ 24%] Built target wheel_status_publisher
+[0.150s] [ 29%] Built target motion_control
+[0.151s] [ 35%] Built target wheel_status_publisher_lib
+[0.161s] [ 40%] Built target ir_intensity_publisher_lib
+[0.172s] [35m[1mConsolidate compiler generated dependencies of target ui_mgr[0m
+[0.174s] [35m[1mConsolidate compiler generated dependencies of target robot_state[0m
+[0.180s] [35m[1mConsolidate compiler generated dependencies of target mock_publisher[0m
+[0.186s] [ 43%] [32mBuilding CXX object CMakeFiles/robot_state_lib.dir/src/robot_state.cpp.o[0m
+[0.191s] [ 45%] [32mBuilding CXX object CMakeFiles/ui_mgr_lib.dir/src/ui_mgr.cpp.o[0m
+[0.205s] [ 48%] [32mBuilding CXX object CMakeFiles/mock_publisher_lib.dir/src/mock_publisher.cpp.o[0m
+[0.210s] [ 54%] Built target ui_mgr
+[0.213s] [ 59%] Built target robot_state
+[0.216s] [ 62%] [32mBuilding CXX object CMakeFiles/kidnap_estimator_publisher_lib.dir/src/kidnap_estimator_publisher.cpp.o[0m
+[0.224s] [ 67%] Built target mock_publisher
+[0.229s] [ 70%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control/docking_behavior.cpp.o[0m
+[0.252s] [ 72%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control/drive_goal_behaviors.cpp.o[0m
+[0.265s] [ 75%] [32mBuilding CXX object CMakeFiles/kidnap_estimator_publisher.dir/rclcpp_components/node_main_kidnap_estimator_publisher.cpp.o[0m

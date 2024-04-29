@@ -1,0 +1,81 @@
+[0.016s] Invoking command in '/home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/src/create3_sim/irobot_create_common/irobot_create_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox
+[0.117s] -- The C compiler identification is GNU 11.4.0
+[0.222s] -- The CXX compiler identification is GNU 11.4.0
+[0.234s] -- Detecting C compiler ABI info
+[0.327s] -- Detecting C compiler ABI info - done
+[0.336s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.337s] -- Detecting C compile features
+[0.337s] -- Detecting C compile features - done
+[0.342s] -- Detecting CXX compiler ABI info
+[0.445s] -- Detecting CXX compiler ABI info - done
+[0.454s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.455s] -- Detecting CXX compile features
+[0.455s] -- Detecting CXX compile features - done
+[0.460s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.652s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.741s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.796s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.805s] -- Searching for dependencies of ignition-math6
+[0.809s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.884s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.892s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.905s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.931s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.971s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.107s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.111s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.257s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.301s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.384s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.398s] -- Looking for pthread.h
+[1.487s] -- Looking for pthread.h - found
+[1.488s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.577s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.578s] -- Found Threads: TRUE  
+[1.865s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.977s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.978s] -- Configured cppcheck include dirs: /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/src/create3_sim/irobot_create_common/irobot_create_toolbox/include
+[1.978s] -- Configured cppcheck exclude dirs and/or files: 
+[1.980s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.980s] -- Configured cpplint exclude dirs and/or files: 
+[1.981s] -- Added test 'lint_cmake' to check CMake code style
+[1.983s] -- Added test 'uncrustify' to check C / C++ code style
+[1.983s] -- Configured uncrustify additional arguments: 
+[1.984s] -- Added test 'xmllint' to check XML markup files
+[1.988s] -- Configuring done
+[2.002s] -- Generating done
+[2.004s] -- Build files have been written to: /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_toolbox
+[2.017s] Invoked command in '/home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/src/create3_sim/irobot_create_common/irobot_create_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox
+[2.019s] Invoking command in '/home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_toolbox -- -j8 -l8
+[2.084s] [ 50%] [32mBuilding CXX object CMakeFiles/irobot_create_toolbox.dir/src/polar_coordinates.cpp.o[0m
+[5.170s] [100%] [32m[1mLinking CXX shared library libirobot_create_toolbox.so[0m
+[5.417s] [100%] Built target irobot_create_toolbox
+[5.435s] Invoked command in '/home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_toolbox -- -j8 -l8
+[5.474s] Invoking command in '/home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_toolbox
+[5.484s] -- Install configuration: ""
+[5.485s] -- Execute custom install script
+[5.485s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/lib/libirobot_create_toolbox.so
+[5.499s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/include/irobot_create_toolbox/math.hpp
+[5.512s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/include/irobot_create_toolbox/polar_coordinates.hpp
+[5.525s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/include/irobot_create_toolbox/sensors/bumpers.hpp
+[5.539s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/library_path.sh
+[5.553s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/library_path.dsv
+[5.566s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/share/ament_index/resource_index/package_run_dependencies/irobot_create_toolbox
+[5.580s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/share/ament_index/resource_index/parent_prefix_path/irobot_create_toolbox
+[5.593s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/ament_prefix_path.sh
+[5.607s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/ament_prefix_path.dsv
+[5.620s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/path.sh
+[5.633s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/path.dsv
+[5.645s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/local_setup.bash
+[5.658s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/local_setup.sh
+[5.671s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/local_setup.zsh
+[5.685s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/local_setup.dsv
+[5.698s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/package.dsv
+[5.711s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/share/ament_index/resource_index/packages/irobot_create_toolbox
+[5.724s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.737s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/ament_cmake_export_libraries-extras.cmake
+[5.751s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.765s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/irobot_create_toolboxConfig.cmake
+[5.778s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/irobot_create_toolboxConfig-version.cmake
+[5.792s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/package.xml
+[5.808s] Invoked command in '/home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_toolbox

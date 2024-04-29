@@ -1,0 +1,19 @@
+[  2%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control_node.cpp.o[0m
+[  8%] Built target ir_intensity_vector_publisher
+[ 13%] Built target hazard_publisher_lib
+[ 18%] Built target hazards_vector_publisher
+[ 24%] Built target wheel_status_publisher
+[ 29%] Built target ir_intensity_publisher_lib
+[ 35%] Built target motion_control
+[ 37%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control/docking_behavior.cpp.o[0m
+[ 43%] Built target wheel_status_publisher_lib
+[ 45%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control/drive_goal_behaviors.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/robot_state_lib.dir/src/robot_state.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/ui_mgr_lib.dir/src/ui_mgr.cpp.o[0m
+[ 56%] Built target robot_state
+[ 62%] Built target mock_publisher_lib
+[ 67%] Built target ui_mgr
+[ 72%] Built target mock_publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/kidnap_estimator_publisher.dir/rclcpp_components/node_main_kidnap_estimator_publisher.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control/wall_follow_behavior.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/kidnap_estimator_publisher_lib.dir/src/kidnap_estimator_publisher.cpp.o[0m

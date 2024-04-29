@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/alex/Programming/ROS2/Ingenia/Ground-Air-ISE23-24/Code/Gazebo Simulation/Simulation_ws/build/irobot_create_nodes/robot_state" "TARGETS" "robot_state" "DESTINATION" "lib/irobot_create_nodes")
